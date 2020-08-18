@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(196, 248, 226, 0.08);
+}
+
+.wrapper .left {
+    width: 35%;
+    background: linear-gradient(to right, #128f55, #2ae070);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper .left img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper .left h4 {
+    margin-bottom: 10px;
+}
+
+.wrapper .left p {
+    font-size: 12px;
+}
+
+.wrapper .right {
+    width: 65%;
+    background: rgb(168, 245, 161);
+    padding: 30px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.wrapper .right .info {
+    margin-bottom: 25px;
+}
+
+.wrapper .right .info h3 {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #003f18;
+    color: #353c4e;
+    letter-spacing: 5px;
+}
+
+.wrapper .right .info_data .data {
+    width: 60%;
+}
+
+.wrapper .right .info_data .data h4 {
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #003f18;
+    text-align: justify;
+}
+
+.wrapper .social_media ul {
+    display: flex;
+}
+
+.wrapper .social_media ul li {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(to right, #15ac01, #1bdf01);
+    margin-right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.wrapper .social_media ul li:hover {
+    background: #fff;
+}
+
+.wrapper .social_media ul li a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+}
+
+.wrapper .social_media ul li:nth-child(1) a:hover {
+    background-color: blue;
+}
+
+.wrapper .social_media ul li:nth-child(2) a:hover {
+    background-color: rgb(35, 145, 196);
+}
+
+.wrapper .social_media ul li:nth-child(3) a:hover {
+    background: linear-gradient(to right, #00b4e0, #fd37ed);
+}
+
+.wrapper .social_media ul li:nth-child(4) a:hover {
+    background-color: rgb(231, 2, 2);
+}
